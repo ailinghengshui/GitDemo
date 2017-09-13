@@ -76,7 +76,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
                     attemptLogin();
                     return true;
                 }
-                return false;
+                return true;
             }
         });
 
